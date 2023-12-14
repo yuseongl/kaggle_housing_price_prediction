@@ -13,7 +13,6 @@ For evaluation used 5-fold cross validation and used mse, mae, r2score validatio
 
 # <line>
 **Preprocessing**  
-
 This model is just pipeline for using machine learning, so composed minimal structure to run.
 It is preprocessing architecture that:
 - first handling missing value of target
