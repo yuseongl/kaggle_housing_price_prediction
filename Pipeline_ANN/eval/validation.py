@@ -10,7 +10,7 @@ sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname(__file__))))
 from train import train, evaluate 
 from copy import deepcopy
 from util.early_stop import EarlyStopper
-from metric.rmsle import RMSLELoss, RMSELoss
+from metric.loss import RMSLELoss, RMSELoss
 from torch.optim.lr_scheduler import ReduceLROnPlateau, CosineAnnealingWarmRestarts
 import warnings
 warnings.filterwarnings(action='ignore')

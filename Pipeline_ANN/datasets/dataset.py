@@ -3,7 +3,6 @@ import numpy as np
 from sklearn.preprocessing import StandardScaler, MaxAbsScaler, MinMaxScaler, RobustScaler
 from .resample import Imbalance_Module
 from .preprocess import preprosess_Module
-from .encoder import Encoder_Module
 from copy import deepcopy
 
 def get_X(df_:pd.DataFrame, df_tst:pd.DataFrame, features:iter=None):

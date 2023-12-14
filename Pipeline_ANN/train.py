@@ -12,7 +12,7 @@ import argparse
 from eval.validation import *
 from tqdm.auto import tqdm
 from util.early_stop import EarlyStopper
-from metric.rmsle import RMSLELoss, RMSELoss
+from metric.loss import RMSLELoss, RMSELoss
 from datasets.dataset import get_X, get_y
 from metric.graph import get_graph, visualization_metrix
 from torch.optim.lr_scheduler import ReduceLROnPlateau, CosineAnnealingWarmRestarts

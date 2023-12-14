@@ -1,6 +1,5 @@
 import pandas as pd
 from .encoder import Encoder_Module
-from .external import external_data
 
 class preprosess_Module:
     def __init__(self,df:pd.DataFrame):
